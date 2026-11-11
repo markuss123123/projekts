@@ -1,0 +1,61 @@
+/* colors, main  #80d5ff, secondary #cceeff,  background #e6f7ff   */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:#e6f7ff;
+ }
+#Topbar {
+    display: block;
+    justify-self: center;
+    width: 95%;
+    height: 55px;
+    background-color: #80d5ff;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#content-topbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1  {
+    color: rgb(34, 28, 28);
+    height: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    user-select: none;
+}
+#buttons {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 200px;
+}
+.ibutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 55px;
+}
+#side {
+    border-right: solid #221C1C 1px;
+}
+#corner  {
+    border-bottom-right-radius: 25px;
+    border-left: solid #221C1C 1%;
+}
+.ibutton:hover{
+    
+}
+
+    
